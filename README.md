@@ -2,5 +2,3 @@
 vodafone
 airtel
 jio
-bsnl
-tata
