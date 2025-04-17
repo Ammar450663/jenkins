@@ -1,1 +1,119 @@
 
+1  cd swiggy/
+    2  ll
+    3  git status 
+    4  git branch 
+    5  touch index.html
+    6  git add index.html 
+    7  git config user.name "ammar"
+    8  git config user.email "ammar@gmail.com
+    9  git commit  -m "commit-1" index.html 
+   10  git branch 
+   11  git checkout movies 
+   12  touch movies{1..5}
+   13  git add movies*
+   14  git commit -m "commit-2" movies*
+   15  git remote add origin https://github.com/Ammar450663/1045paytm.git---github account 
+   16  git push origin movies 
+   17  ll
+   18  git branch
+   19  git branch master 
+   20  git checkout master 
+   21  git branch 
+   22  ll
+   23  git checkout movies 
+   24  git branch train
+   25  git branch 
+   26  git checkout train 
+   27  git branch 
+   28  touch train{1..5}
+   29  git add train
+   30  git add train*
+   31  git  commit -m "commit-3" train*
+   32  git push origin train 
+   33  ll
+   34  git branch -b dth
+   35  git checkout  -b dth
+   36  git branch 
+   37  ll
+   38  touch dth{1..5}
+   39  git add dth*
+   40  git commit -m "commit-4" dth*
+   41  git push origin dth
+   42  git checkout -b recharge
+   43  git branch 
+   44  touch recharge{1..5}
+   45  git add recharge*
+   46  git commit -m "commit-5" recharge*
+   47  git push origin recharge 
+   48  ll
+   49  git status 
+   50  touch java{1..5}
+   51  git status 
+   52  vim .gitignore
+   53  git status 
+   54  vim .gitignore
+   55  git status 
+   56  ll
+   57  git add *
+   58  ll
+   59  git status
+   60  touch python{1..5}
+   61  git status
+   62  vim .gitignore
+   63  git status
+   64  ll
+   65  git add *
+   66  git branch 
+   67  git branch
+   68  git branch -m master ammar--- for rename
+   69  git branch
+   70  git branch -m ammar main
+   71  git branch
+   72  git branch -m main master
+   73  git branch
+   74  git branch 
+   75  ll
+   76  git push origin movies ---- Push the local movies branch to the origin remote
+   77  git branch 
+   78  git branch -D recharge ----for delete
+   79  git checkout movies 
+   80  git branch -D recharge 
+   81  git branch 
+   82  git pull origin recharge ---------it will get the branch from github to git
+   83  git checkout recharge 
+   84  git branch 
+   85  git branch -D movies 
+   86  git branch 
+   87  git pull origin movies 
+   88  ll
+   89  git checkout movies 
+   90  git branch 
+   91  git raham
+   92  touch raham
+   93  git status
+   94  git add raham 
+   95  git status
+   96  git restore  --staged raham ------to untract the tracked files
+   97  git status
+   98  ll
+   99  rm -f raham 
+  100  git restore raham------Get delete back file
+  101  ll
+  102  git status
+  103  cd
+  104  mkdir abcd
+  105  cd abcd/
+  106  touch file1
+  107  git init
+  108  git add file1 
+  109  rm -f file1 
+  110  ll
+  111  git restore file1 
+  112  ll
+  113  touch file2
+  114  git status
+  115  rm -f file2
+  116  git restore file2
+  117  history
+[root@ip-172-31-5-149 abcd]# 
