@@ -1,4 +1,0 @@
-# recharge
-vodafone
-airtel
-jio
